@@ -1,0 +1,6 @@
+framework module KJCurveSlider {
+  umbrella header "KJCurveSlider-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,23 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - KJCurveSlider (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - KJCurveSlider (from `../`)
+
+EXTERNAL SOURCES:
+  KJCurveSlider:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: '094f9f314decbabe373b87cc339bea235a63e07a'
+  KJCurveSlider: e6e0fda45c718f0e2361fbaf274bdebb35bdf166
+
+PODFILE CHECKSUM: '039df7e28d8907f3702fabf0a3ac814200f3a6a9'
+
+COCOAPODS: 1.2.0
