@@ -5,6 +5,7 @@
 [![Issues](https://img.shields.io/github/issues/KiranJasvanee/KJCurveSlider.svg)](https://github.com/KiranJasvanee/KJCurveSlider/issues)
 [![Forks](https://img.shields.io/github/forks/KiranJasvanee/KJCurveSlider.svg)](https://github.com/KiranJasvanee/KJCurveSlider)
 [![Stars](https://img.shields.io/github/stars/KiranJasvanee/KJCurveSlider.svg)](https://github.com/KiranJasvanee/KJCurveSlider)
+[![Language](https://img.shields.io/badge/Language-Swift-yellow.svg)](https://github.com/KiranJasvanee/KJCurveSlider)
 
 
 ## Preview
