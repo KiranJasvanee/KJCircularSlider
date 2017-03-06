@@ -2,7 +2,7 @@
 
 [![CocoaPods](https://img.shields.io/cocoapods/v/KJCurveSlider.svg?style=flat)](https://github.com/KiranJasvanee/KJCurveSlider)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](https://github.com/KiranJasvanee/KJCurveSlider/blob/master/LICENSE)
-[![Platform](https://img.shields.io/cocoapods/p/KJCurveSlider.svg?style=flat)](http://cocoapods.org/pods/KJCurveSlider)
+[![Platform](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](https://github.com/KiranJasvanee/KJCurveSlider/blob/master/.swift-version)
 ## Preview
 Slide your progress through curve!
 
