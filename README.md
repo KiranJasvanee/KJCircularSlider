@@ -3,6 +3,8 @@
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](https://github.com/KiranJasvanee/KJCurveSlider/blob/master/LICENSE)
 [![Issues](https://img.shields.io/github/issues/KiranJasvanee/KJCurveSlider.svg)](https://github.com/KiranJasvanee/KJCurveSlider/issues)
 [![Forks](https://img.shields.io/github/forks/KiranJasvanee/KJCurveSlider.svg)](https://github.com/KiranJasvanee/KJCurveSlider)
+[![Stars](https://img.shields.io/github/stars/KiranJasvanee/KJCurveSlider.svg](https://github.com/KiranJasvanee/KJCurveSlider)
+
 
 ## Preview
 Slide your progress through curve!
