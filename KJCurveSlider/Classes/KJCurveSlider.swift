@@ -2,21 +2,21 @@
 //  KJCurveSlider.swift
 //  KJCurveSlider
 //
-//  Created by MAC241 on 20/02/17.
+//  Created by KiranJasvanee on 20/02/17.
 //  Copyright © 2017 KiranJasvanee. All rights reserved.
 //
 
 import UIKit
 
-protocol KJCurveSliderDelegate {
+public protocol KJCurveSliderDelegate {
    
     func getPercentage(curveSliderInstance: KJCurveSlider, percentValue: Float)
 }
 
-@IBDesignable class KJCurveSlider: UIView {
+@IBDesignable public class KJCurveSlider: UIView {
     
     // protocol
-    var KJCurveDelegate: KJCurveSliderDelegate?
+    public var KJCurveDelegate: KJCurveSliderDelegate?
     
     private let _pathLayer: CAShapeLayer = CAShapeLayer()   // circle path layer.
     private let _path: UIBezierPath = UIBezierPath()        // circle bezier path.
@@ -38,8 +38,8 @@ protocol KJCurveSliderDelegate {
     private let labelPercentageOfSelection: UILabel = UILabel()
     
     // Public variables
-    var showPrecision = true
-    var sliderColor: UIColor {
+    public var showPrecision = true
+    public var sliderColor: UIColor {
         get {
             return self.sliderColor
         }
@@ -47,7 +47,7 @@ protocol KJCurveSliderDelegate {
             _pathLayer.strokeColor = newValue.cgColor
         }
     }
-    var sliderWidth: Float {
+    public var sliderWidth: Float {
         get {
             return self.sliderWidth
         }
@@ -56,7 +56,7 @@ protocol KJCurveSliderDelegate {
         }
     }
     private var sliderSelectedAreaColorPrivate: UIColor = UIColor.red
-    var sliderSelectedAreaColor: UIColor {
+    public var sliderSelectedAreaColor: UIColor {
         get {
             return self.sliderSelectedAreaColorPrivate
         }
@@ -66,7 +66,7 @@ protocol KJCurveSliderDelegate {
         }
     }
     private var sliderSelectedWidthPrivate: Float = 2.0
-    var sliderSelectedAreaWidth: Float {
+    public var sliderSelectedAreaWidth: Float {
         get {
             return self.sliderSelectedWidthPrivate
         }
@@ -76,7 +76,7 @@ protocol KJCurveSliderDelegate {
         }
     }
     private var sliderCapColorPrivate = UIColor.red
-    var sliderCapColor: UIColor {
+    public var sliderCapColor: UIColor {
         get {
             return sliderCapColorPrivate
         }
@@ -85,7 +85,7 @@ protocol KJCurveSliderDelegate {
             circleLayer.strokeColor = newValue.cgColor
         }
     }
-    var sliderCapFillColor: Bool {
+    public var sliderCapFillColor: Bool {
         get {
             return self.sliderCapFillColor
         }
@@ -104,7 +104,7 @@ protocol KJCurveSliderDelegate {
         super.init(frame: frame)
     }
     
-    required init?(coder aDecoder: NSCoder) {
+    required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         
         // Initial path layer support
@@ -299,7 +299,7 @@ protocol KJCurveSliderDelegate {
     
     // Only override draw() if you perform custom drawing.
     // An empty implementation adversely affects performance during animation.
-    override func draw(_ rect: CGRect) {
+    override public func draw(_ rect: CGRect) {
         
     }
 }
