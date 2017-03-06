@@ -30,7 +30,7 @@ pod "KJCurveSlider"
 
 ## Usage
 
-KJCurveSlider can be used via code or interface builder. 
+KJCurveSlider can be used via code or interface builder. You can add two or more KJCurveSlider's in single view.
 
 * If configuring via code, use the traditional init methods and properties.
 
@@ -38,10 +38,50 @@ KJCurveSlider can be used via code or interface builder.
 
 Use following properties to edit design layout.
 
-Use this boolean property to show or not a precision in percentage value
 ```swift 
-showPrecision
+// declare instance of KJCurveSlider by connecting to UIView outlet at interface builder
+@IBOutlet weak var curveSliderLarge: KJCurveSlider!
+```
+
+```swift 
+// use showPrecision boolean property to allow or not a precisions in percentage value.
+curveSliderLarge.showPrecision = true
+
+// use sliderWidth property value to apply width in curve
+curveSliderLarge.sliderWidth = 2.0
+
+// use sliderColor property value to apply color in curve
+curveSliderLarge.sliderColor = UIColor.black
+
+// use sliderSelectedAreaWidth property value to apply width in selected curved area
+curveSliderLarge.sliderSelectedAreaWidth = 10.0
+
+// use sliderSelectedAreaWidth property value to apply color in selected curved area
+curveSliderLarge.sliderSelectedAreaColor = UIColor.orange
+
+// use sliderCapColor property value to apply cap color
+curveSliderLarge.sliderCapColor = UIColor.green
+
+// use sliderCapColor boolean property value to weather fill or not a cap with cap color
+curveSliderLarge.sliderCapFillColor = true
+
+// use KJCurveDelegate, a delegate property to receive processed percentage value by using it's protocol method.
+curveSliderLarge.KJCurveDelegate = self
 ``` 
+
+Method
+
+```swift
+// use this protocol method to receive slider values
+func getPercentage(curveSliderInstance: KJCurveSlider, percentValue: Float) {
+        
+        // use your declared instance for comparision, when you want use particular slider values at the time of two or more KJCurveSlider's available in single view.
+        // access of specific small slider values
+        if curveSliderInstance == curveSliderSmall {
+            labelPercentForSmallerCurveSlider.text = "\(percentValue)%"
+        }
+    }
+```
 
 ## Author
 
