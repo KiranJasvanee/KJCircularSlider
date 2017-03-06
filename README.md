@@ -88,7 +88,7 @@ func getPercentage(curveSliderInstance: KJCurveSlider, percentValue: Float) {
 
 ## Author
 
-Kiran Jasvanee, kiran.jasvanee@yahoo.com
+Kiran Jasvanee, kiran.jasvanee@yahoo.com, Skype: KiranJasvanee
 
 ## License
 
