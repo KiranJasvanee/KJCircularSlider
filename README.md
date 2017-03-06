@@ -1,5 +1,6 @@
 # KJCurveSlider
 
+[![Twitter: @KiranJasvanee](https://img.shields.io/badge/contact-@kiranjasvanee-blue.svg?style=flat)](https://twitter.com/Kiranjasvanee)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](https://github.com/KiranJasvanee/KJCurveSlider/blob/master/LICENSE)
 [![Issues](https://img.shields.io/github/issues/KiranJasvanee/KJCurveSlider.svg)](https://github.com/KiranJasvanee/KJCurveSlider/issues)
 [![Forks](https://img.shields.io/github/forks/KiranJasvanee/KJCurveSlider.svg)](https://github.com/KiranJasvanee/KJCurveSlider)
