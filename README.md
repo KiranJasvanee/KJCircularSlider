@@ -22,7 +22,7 @@ pod "KJCurveSlider"
 
 ## Author
 
-bluelabeldeveloper1, kiran.jasvanee@yahoo.com
+Kiran Jasvanee, kiran.jasvanee@yahoo.com
 
 ## License
 
