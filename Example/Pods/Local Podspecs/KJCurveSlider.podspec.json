@@ -1,22 +1,22 @@
 {
   "name": "KJCurveSlider",
   "version": "0.1.0",
-  "summary": "A short description of KJCurveSlider.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/bluelabeldeveloper1/KJCurveSlider",
+  "summary": "Curve slider - to slide from 0 to 100 in curve shape",
+  "description": "TODO: Add long description of the pod here.\nIt's curve slider, It provides curved shape to slide around from 0 to 100 percent, You can use it when you required a curved shape on clider rather than traditional iOS line shape slider.",
+  "homepage": "https://github.com/KiranJasvanee/KJCurveSlider",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "bluelabeldeveloper1": "kiran.jasvanee@yahoo.com"
+    "Kiran Jasvanee": "kiran.jasvanee@yahoo.com"
   },
   "source": {
-    "git": "https://github.com/bluelabeldeveloper1/KJCurveSlider.git",
+    "git": "https://github.com/KiranJasvanee/KJCurveSlider.git",
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.0"
   },
   "source_files": "KJCurveSlider/Classes/**/*"
 }

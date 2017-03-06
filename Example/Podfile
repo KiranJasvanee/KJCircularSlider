@@ -6,6 +6,5 @@ target 'KJCurveSlider_Example' do
   target 'KJCurveSlider_Tests' do
     inherit! :search_paths
 
-    pod 'FBSnapshotTestCase'
   end
 end
