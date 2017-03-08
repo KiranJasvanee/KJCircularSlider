@@ -45,7 +45,7 @@ class ViewController: UIViewController, KJCurveSliderDelegate {
 
     func getPercentage(curveSliderInstance: KJCurveSlider, percentValue: Float) {
         
-        // if it's a small slider
+        // access of specific small slider values
         if curveSliderInstance == curveSliderSmall {
             labelPercentForSmallerCurveSlider.text = "\(percentValue)%"
         }
