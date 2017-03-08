@@ -22,11 +22,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Dz8-Pe-WEz" customClass="KJCurveSlider">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Dz8-Pe-WEz" customClass="KJCurveSlider" customModule="KJCurveSlider">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="333.5"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="68z-tD-h72" customClass="KJCurveSlider">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="68z-tD-h72" customClass="KJCurveSlider" customModule="KJCurveSlider">
                                 <rect key="frame" x="9" y="439" width="220" height="220"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -34,7 +34,7 @@
                                     <constraint firstAttribute="height" constant="220" id="RY8-7m-dkp"/>
                                 </constraints>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pIG-8n-7h3" customClass="KJCurveSlider">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pIG-8n-7h3" customClass="KJCurveSlider" customModule="KJCurveSlider">
                                 <rect key="frame" x="237" y="439" width="130" height="130"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
