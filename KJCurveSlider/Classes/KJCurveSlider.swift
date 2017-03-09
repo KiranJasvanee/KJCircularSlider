@@ -107,13 +107,17 @@ public protocol KJCurveSliderDelegate {
     required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         
+        let recognizer: UIPanGestureRecognizer = UIPanGestureRecognizer(target: self, action: #selector(handlePan))
+        handleView.addGestureRecognizer(recognizer)
+    }
+    
+    // Only override draw() if you perform custom drawing.
+    // An empty implementation adversely affects performance during animation.
+    override public func draw(_ rect: CGRect) {
         // Initial path layer support
         self.initPathLayer()
         self.initHandleView()
         self.createPath()
-        
-        let recognizer: UIPanGestureRecognizer = UIPanGestureRecognizer(target: self, action: #selector(handlePan))
-        handleView.addGestureRecognizer(recognizer)
     }
 
     private func initPathLayer() {
@@ -297,11 +301,7 @@ public protocol KJCurveSliderDelegate {
         return hypot(point.x - proposedHandlePoint.x, point.y - proposedHandlePoint.y)
     }
     
-    // Only override draw() if you perform custom drawing.
-    // An empty implementation adversely affects performance during animation.
-    override public func draw(_ rect: CGRect) {
-        
-    }
+    
 }
 
 extension Float {

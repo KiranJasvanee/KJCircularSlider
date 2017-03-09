@@ -29,10 +29,6 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="68z-tD-h72" customClass="KJCurveSlider" customModule="KJCurveSlider">
                                 <rect key="frame" x="9" y="439" width="220" height="220"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="220" id="DAP-Te-iNv"/>
-                                    <constraint firstAttribute="height" constant="220" id="RY8-7m-dkp"/>
-                                </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pIG-8n-7h3" customClass="KJCurveSlider" customModule="KJCurveSlider">
                                 <rect key="frame" x="237" y="439" width="130" height="130"/>
@@ -74,7 +70,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="117.59999999999999" y="123.68815592203899"/>
+            <point key="canvasLocation" x="-190" y="21"/>
         </scene>
     </scenes>
 </document>
