@@ -43,7 +43,7 @@ KJCurveSlider can be used via code or interface builder. You can add two or more
 
 * If using Interface Builder, add UIView on your interface builder, add KJCurveSlider in 'Class' at Identity inspector of added UIView.
 
-Use following properties to edit design layout.
+Use following properties to edit design layout. Add your layout settings in `viewDidAppear`.
 
 ```swift 
 // declare instance of KJCurveSlider by connecting to UIView outlet at interface builder
