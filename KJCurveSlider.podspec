@@ -27,7 +27,7 @@ It's curve slider, It provides curved shape to slide around from 0 to 100 percen
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Kiran Jasvanee' => 'kiran.jasvanee@yahoo.com' }
   s.source           = { :git => 'https://github.com/KiranJasvanee/KJCurveSlider.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  # s.social_media_url = 'https://twitter.com/KiranJasvanee'
 
   s.ios.deployment_target = '9.0'
 
