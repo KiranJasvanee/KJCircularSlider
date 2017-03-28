@@ -1,16 +1,16 @@
 PODS:
-  - KJCurveSlider (0.1.0)
+  - KJCircularSlider (0.1.0)
 
 DEPENDENCIES:
-  - KJCurveSlider (from `../`)
+  - KJCircularSlider (from `../`)
 
 EXTERNAL SOURCES:
-  KJCurveSlider:
+  KJCircularSlider:
     :path: "../"
 
 SPEC CHECKSUMS:
-  KJCurveSlider: f588369087d0dac7ef554ccf11c1932b6af203d8
+  KJCircularSlider: fedc3b0a6a8f184c75438dcbc257f38671478707
 
-PODFILE CHECKSUM: 2cf0a55d62cf7a61bb5a8ae6ca06832a99fd6a4b
+PODFILE CHECKSUM: 9f3e5cb1e0314f1a7334458595a569cf62c0a21b
 
 COCOAPODS: 1.2.0

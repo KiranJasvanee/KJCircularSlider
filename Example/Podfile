@@ -1,9 +1,9 @@
 use_frameworks!
 
-target 'KJCurveSlider_Example' do
-  pod 'KJCurveSlider', :path => '../'
+target 'KJCircularSlider_Example' do
+  pod 'KJCircularSlider', :path => '../'
 
-  target 'KJCurveSlider_Tests' do
+  target 'KJCircularSlider_Tests' do
     inherit! :search_paths
 
   end

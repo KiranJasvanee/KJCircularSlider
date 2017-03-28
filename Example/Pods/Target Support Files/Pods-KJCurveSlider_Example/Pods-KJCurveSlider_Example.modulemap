@@ -1,6 +1,0 @@
-framework module Pods_KJCurveSlider_Example {
-  umbrella header "Pods-KJCurveSlider_Example-umbrella.h"
-
-  export *
-  module * { export * }
-}
