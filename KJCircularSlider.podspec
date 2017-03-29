@@ -22,7 +22,7 @@ TODO: Add long description of the pod here.
 It's circular slider, It provides circular shape to slide around from 0 to 100 percent, You can use it when you required a circular shape on slider rather than traditional iOS line shape slider.
                        DESC
 
-  s.homepage         = 'https://github.com/KiranJasvanee/KJCircularSlider'
+  s.homepage         = 'https://github.com/KiranJasvanee/KJCurveSlider'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Kiran Jasvanee' => 'kiran.jasvanee@yahoo.com' }
@@ -31,10 +31,10 @@ It's circular slider, It provides circular shape to slide around from 0 to 100 p
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'KJCircularSlider/Classes/**/*'
+  s.source_files = 'Classes/**/*'
   
   # s.resource_bundles = {
-  #   'KJCircularSlider' => ['KJCircularSlider/Assets/*.png']
+  #   'KJCircularSlider' => ['KJCircularSlider/Classes/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
