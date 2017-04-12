@@ -28,7 +28,7 @@ KJCircularSlider is available through [CocoaPods](http://cocoapods.org). To inst
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'KJCircularSlider', '~> 0.1.0'
+pod 'KJCircularSlider', '~> 0.2.0'
 ```
 
 ## Usage
@@ -37,7 +37,7 @@ KJCircularSlider can be used via code or interface builder. You can add two or m
 
 * If configuring via code, use the traditional init methods and properties.
 
-* If using Interface Builder, add UIView on your interface builder, add KJCircularSlider in 'Class' at Identity inspector of added UIView.
+* If using Interface Builder, add UIView on your interface builder, add KJCircularSlider in 'Class' & 'Module' properties of Identity inspector of added UIView.
 
 Use following properties to edit design layout. Add your layout settings in `viewDidAppear`.
 
