@@ -1,5 +1,5 @@
 PODS:
-  - KJCircularSlider (0.1.0)
+  - KJCircularSlider (0.2.0)
 
 DEPENDENCIES:
   - KJCircularSlider (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  KJCircularSlider: fedc3b0a6a8f184c75438dcbc257f38671478707
+  KJCircularSlider: 3a8abbcbdd37f0e6c746f75ecfb6ae0c3f6a01cc
 
 PODFILE CHECKSUM: 9f3e5cb1e0314f1a7334458595a569cf62c0a21b
 
