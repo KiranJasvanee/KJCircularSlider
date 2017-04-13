@@ -7,6 +7,7 @@
 [![Stars](https://img.shields.io/github/stars/KiranJasvanee/KJCircularSlider.svg)](https://github.com/KiranJasvanee/KJCircularSlider)
 [![Language](https://img.shields.io/badge/Language-Swift-yellow.svg)](https://github.com/KiranJasvanee/KJCircularSlider)
 
+**NOTE: Pod version requires 1.2.0 & later**
 
 ## Preview
 Slide your progress through circular!
